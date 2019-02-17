@@ -1,0 +1,9 @@
+$ cat .gitignore
+
+*.log
+*.pot
+*.pyc
+__pycache__/
+axecapital/settings.py
+.env
+db.sqlite3
