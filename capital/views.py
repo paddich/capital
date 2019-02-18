@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def advertising(request):
+    return render(request, 'capital/index.html')

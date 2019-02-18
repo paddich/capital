@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>
+        {% block title %}
+            Capital Plus
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                 class="d-inline-block align-top" alt="">
+            Bootstrap
+        </a>
+    </nav>
+    {% block content %}
+        There is no any content for you
+    {% endblock %}
+
+</body>
+</html>
