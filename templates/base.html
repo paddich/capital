@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     <title>
         {% block title %}
             Capital Plus
@@ -19,9 +20,12 @@
             Bootstrap
         </a>
     </nav>
-    {% block content %}
-        There is no any content for you
-    {% endblock %}
+    <div class="content">
+        {% block content %}
+            There is no any content for you
+        {% endblock %}
+    </div>
+
 
 </body>
 </html>
