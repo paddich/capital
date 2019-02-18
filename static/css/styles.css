@@ -1,3 +1,25 @@
+.navbar {
+    background: #98C8FF;
+}
+
+.btn-nav-group {
+    position: relative;
+    left: -600px;
+}
+
+.btn-nav {
+    border: 2px #999;
+    padding: 7px;
+    background: #98C8FF;
+    font-family: 'Times New Roman', Georgia, Serif;
+}
+
 .content {
-    background: red;
+    background: #DCEDFF;
+}
+
+.botbar {
+    margin-top: -10px;
+    position: static;
+    background: #54A5FF;
 }

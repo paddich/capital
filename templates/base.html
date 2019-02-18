@@ -13,19 +13,28 @@
     </title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar">
         <a class="navbar-brand" href="#">
-            <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30"
-                 class="d-inline-block align-top" alt="">
-            Bootstrap
+            <img src="{% static 'images/planBlogo.jpg' %}" width="250" height="200">
         </a>
+        <div class="btn-nav-group">
+            <button class="btn-nav">Стратегия</button>
+            <button class="btn-nav">Преимущества</button>
+            <button class="btn-nav">О нас</button>
+            <button class="btn-nav">Личный кабинет</button>
+        </div>
+
     </nav>
     <div class="content">
         {% block content %}
             There is no any content for you
         {% endblock %}
     </div>
-
+    <nav class="botbar">
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'images/logoDark.jpg' %}" width="125" height="100">
+        </a>
+    </nav>
 
 </body>
 </html>
